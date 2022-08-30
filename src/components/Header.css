@@ -1,0 +1,121 @@
+.appstyle {
+  box-shadow: none;
+  background-color: "#43436B";
+
+}
+
+.linkStyle {
+  display: "flex";
+  text-decoration: none;
+  align-items: center;
+  padding: "10px 15px";
+  text-decoration: none;
+  color: "#D5D5E2";
+  border-radius: "5px";
+  /* transition: "background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
+    "&:hover": {
+      textDecoration: "none";
+      color: "#D5D5E2";
+      backgroundColor: "rgba(213,213,226,.1)";
+    }, */
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  width: 12%;
+  justify-content: space-between;
+  padding-left: 78%;
+  color: aliceblue;
+
+
+}
+
+.profile>span {
+  color: aliceblue;
+}
+
+.git {
+  align-items: center;
+  color: #e8e8eb;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.date {
+  margin-top: 7;
+}
+
+.datepicker-control-section {
+  max-width: 246px;
+  margin: 30px auto;
+  padding-top: 50px;
+}
+
+.root {
+  border-bottom: 1px solid #f2f2f4;
+  margin-top: 28px;
+  background-color: #F3F3FB;
+  /* height: 95px; */
+  text-align: center;
+
+}
+
+.range {
+  margin-top: 13px;
+}
+
+.table {
+  width: 91%;
+  border: 2px red;
+  padding: 20px;
+  margin: 20px;
+  margin-top: auto;
+  /* margin-left: 40px; */
+  margin-right: 25px;
+
+}
+
+.head {
+  background-color: #F8F8FC;
+}
+
+.tab {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.tabdata {
+  border-bottom: 1px solid #9592FF;
+  display: flex;
+  overflow: hidden;
+  min-height: 48px;
+}
+
+.body {
+  background-color: #ffffff;
+}
+
+#range-slider {
+  float: left;
+  padding-left: 5px;
+
+}
+
+.box {
+  padding-left: 30px;
+
+}
+
+.box>span {
+  color: #9592FF;
+  height: 3px;
+
+}
